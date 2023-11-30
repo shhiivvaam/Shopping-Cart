@@ -14,7 +14,10 @@ function App() {
       
       <Routes>
         <Route path='/' element= {<Home/>}/>
+        <Route path='/Shopping-Cart' element= {<Home/>}/>
         <Route path='/cart' element= {<Cart/>}/>
+        <Route path='/Shopping-Cart/cart' element= {<Cart/>}/>
+        <Route path='/*' element= {<Home/>}/>
       </Routes>
 
     </div>
